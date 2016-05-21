@@ -1,0 +1,116 @@
+{
+  "temperature"    : [
+    {   "color"                : "255,0,0",
+        "intervalMin"       : -56,
+        "intervalMax"       : -5,
+        "color1" : "255,255,0",
+        "color2" : "255,0,0"
+    },
+    {  "color"                : "255,0,0",
+        "intervalMin"       :  35,
+        "intervalMax"       :  56,
+        "color1" : "255,0,0",
+        "color2" : "255,255,0"
+    },   
+    {   "color"                : "255,255,0",
+        "intervalMin"       : -4,
+        "intervalMax"       :  10,
+        "color1" : "0,255,0",
+        "color2" : "255,0,0"
+    },
+    {   "color"                : "255,255,0",
+        "intervalMin"       :  25,
+        "intervalMax"       :  36,
+        "color1" : "255,0,0",
+        "color2" : "0,255,0"
+    },
+    {   "color"                : "0,255,0",
+        "intervalMin"       :  11,
+        "intervalMax"       :  24,
+        "color1" : "255,255,0",
+        "color2" : "255,255,0"
+    }   
+  ],
+   "humidity" :[
+    {   "color"                : "255,0,0",
+        "intervalMin"       :  5,
+        "intervalMax"       :  20,
+        "color1" : "255,255,0",
+        "color2" : "255,0,0"
+    },
+    {   "color"                : "255,0,0",
+        "intervalMax"       :  100,
+        "intervalMin"       :  99,
+        "color1" : "255,0,0",
+        "color2" : "255,255,0"
+    },   
+    {   "color"                : "255,255,0",
+        "intervalMin"       :  21,
+        "intervalMax"       :  30,
+        "color1" : "0,255,0",
+        "color2" : "255,0,0"
+    },
+    {   "color"                : "255,255,0",
+        "intervalMin"       :  60,
+        "intervalMax"       :  98,
+        "color1" : "255,0,0",
+        "color2" : "0,255,0"
+    },
+    {   "color"                : "0,255,0",
+        "intervalMin"       :  31,
+        "intervalMax"       :  59,
+        "color1" : "255,255,0",
+        "color2" : "255,255,0"
+        
+    }
+    ],
+    
+     "airquality" :[
+     {   "color"            : "255,0,0",
+        "intervalMin"       :  125,
+        "intervalMax"       :  200,
+        "color1" : "255,0,0",
+        "color2" : "255,255,0"
+    },
+     {   "color"            : "255,255,0",
+        "intervalMin"       :  50,
+        "intervalMax"       :  124,
+        "color1" : "255,0,0",
+        "color2" : "0,255,0"
+    },
+     {   "color"            : "0,255,0",
+        "intervalMin"       :  0,
+        "intervalMax"       :  49
+        ,
+        "color1" : "255,255,0",
+        "color2" : "0,255,0"
+    }
+    ],
+   "uvindex" :[
+     {   "color"            : "255,0,0",
+        "intervalMin"       :  7,
+        "intervalMax"       :  15,
+        "color1" : "255,0,0",
+        "color2" : "255,255,0"
+    },
+     {   "color"            : "255,255,0",
+        "intervalMin"       :  3,
+        "intervalMax"       :  6,
+        "color1" : "255,0,0",
+        "color2" : "0,255,0"
+    },
+     {   "color"            : "0,255,0",
+        "intervalMax"       :  2,
+        "intervalMin"       :  0,
+        "color1" : "255,255,0",
+        "color2" : "0,255,0"
+    }
+    ]
+}
+      
+      
+    
+      
+      
+      
+      

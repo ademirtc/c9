@@ -1,0 +1,87 @@
+
+<div class="page-header">
+  <h1>OutdoorSportsMaps</h1>
+</div>
+
+<nav class="nav nav-open">
+	 
+		<div class="wrap">
+			<button onClick="getLocation()" id="btnLocalization">Get My Localization</button></button>
+        <%= form_tag :action => 'loadData' do %>			
+          <label>Localization:</label><br /><input type="text" name="sports_map[localization]" id="localization"></input><br />
+		    <label>Radius:</label><br /><input type="text" name="sports_map[radius]"></input><br /> 
+          <label>Data to be considered:</label><br /> 
+          <input type="checkbox" name="sports_map[air-quality]" value="air-quality"> Air quality<br>
+          <input type="checkbox" name="sports_map[ultraviolet]" value="ultraviolet"> UV Index (ultraviolet)<br>
+          <input type="checkbox" name="sports_map[humidity]" value="humidity"> Humidity<br>
+          <input type="checkbox" name="sports_map[temperature]" value="temperature"> Temperature<br>
+          <!--<input type="checkbox" name="meteorological" value="meteorological"> Meteorological data<br>-->
+          <input type="checkbox" name="sports_map[green-areas]" value="green-areas"> Green areas<br>
+          <input type="checkbox" name="sports_map[bike-paths]" value="bike-paths"> Bike paths<br>
+          <!--<input type="checkbox" name="security" value="security"> Security<br>-->
+          <div id="legend">
+            <div id="caption-color"></div>
+            <div id="legend-labels">Good<br />Reasonable<br />Bad<br /></div>
+            <div class="clear"> </div>
+          </div>
+          <input type="submit" value="Submit">
+        <% end %>
+        
+			</div>
+		</nav>
+
+<div id="map-container">
+  <div id="map-canvas"></div>
+</div>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>-->
+<script type="text/javascript">/*
+  function menu() {
+		$('.nav-toggle').click(function() {
+			if($(".nav").hasClass("side-closed")) {
+				$('.nav').animate({
+				    left: "0px",
+				}, 10.0, function() {
+				    $(".nav").removeClass("side-closed");
+				});
+			}
+			else {
+				$('.nav').animate({
+				    left: "-201px",
+				}, 100, function() {
+				    $(".nav").addClass("side-closed");
+				});
+			}
+		});
+	}
+	
+	//Menu Sidebar
+	$(window).resize(function() {
+		var windowSize = $(window).width();
+		$(".nav-toggle").remove();
+		
+		if (windowSize < 800) { 
+			$('.nav').css('left', '-201px').addClass('side-closed');
+			$('.nav').append( "<div class='nav-toggle'>Menu</div>" );
+		} else {
+			$('.nav').css('left', '0px').addClass('side-closed');
+		}
+		
+		menu();
+	});
+	
+	$(document).ready(function() {
+		var windowSize = $(window).width();
+		$(".nav-toggle").remove();
+		
+		if (windowSize < 800) { 
+			$('.nav').css('left', '-201px').addClass('side-closed');
+			$('.nav').append( "<div class='nav-toggle'>Menu</div>" );
+		} else {
+			$('.nav').css('left', '0px').addClass('side-closed');
+		}
+		
+		menu();
+	});*/
+</script>
+

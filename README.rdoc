@@ -1,0 +1,60 @@
+![Build Status](https://gitlab.com/smart-city-platform/outdoor-sports_mapsA/badges/master/build.svg)
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+
+
+Things you may want to cover:
+
+* Ruby version
+
+Ruby 2.2.2
+
+* System dependencies
+
+Gem Rails 4.2.5.2
+
+* Configuration
+
+==========================================
+
+** Setting up a Development Environment **
+
+==========================================
+
+Install Ruby 2.2.2
+
+$ sudo apt-get update
+$ sudo apt-get install build-essential make curl
+$ \curl -L https://get.rvm.io | bash -s stable
+$ rvmsudo rvm get stable$ rvm use --default ruby-2.2.2rub
+$ rvm install ruby-2.2.2
+
+Then check ruby versions installed and in use:
+
+$ rvm use --default ruby-2.2.2
+
+Gem install Rails 4.2.5.2
+
+$ rvm gemset create gemset_rails
+$ rvm ruby-2.2.2@gemset_rails
+$ gem install rails -v 4.2.5.2
+
+Git clone project
+
+$ git clone git@gitlab.com:smart-city-platform/outdoor-sports-map.git
+
+$ cd outdoor-sports-map/
+$ bundle install
+$ rake db:migrate
+$ rails server -b $IP -p $PORT
+
+* How to run the test suite
+
+$ rspec spec
+
+Please feel free to use a different markup language if you do not plan to run
+
+<tt>rake doc:app</tt>.

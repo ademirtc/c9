@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OutdoorSports</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  
+    <%= yield %>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgCU7lqml061P2n5nAGzRkXjNf7MxYuRA&signed_in=true&libraries=visualization&callback=initMap"></script>
+  </body>
+</html>

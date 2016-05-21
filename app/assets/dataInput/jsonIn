@@ -1,0 +1,27 @@
+{
+  "data"    : [
+    {   "id"          : "1",
+        "value"       : 35,
+        "latitude"    : "-23,51",
+        "longitude"   : "-46",
+        "type"        : "temperature",
+        "raio"        : "1"
+    },   
+    {   "id"          : "2",
+        "value"       : 58,
+        "latitude"    : "-25",
+        "longitude"   : "-46",
+        "type"        : "humidity",
+        "raio"        : "2"
+    }   ,
+    {   "id"          : "3",
+        "value"       : 30,
+        "latitude"    : "-23",
+        "longitude"   : "-50",
+        "type"        : "airquality",
+        "raio"        : "3"
+    }   
+   
+  ]
+  
+}
